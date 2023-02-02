@@ -1,0 +1,22 @@
+@import 'libs/bootstrap-reboot.min';
+@import 'base/variables';
+@import 'base/mixins';
+
+* {
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Carattere', cursive;
+    margin: 0;
+}
+
+@import 'blocks/container';
+@import 'blocks/buttons';
+@import 'blocks/title';
+@import 'blocks/promo';
+@import 'blocks/fairy';
+@import 'blocks/trip';
+@import 'blocks/hotel';

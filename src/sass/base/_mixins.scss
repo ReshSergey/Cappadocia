@@ -1,0 +1,11 @@
+@mixin phone {
+    &:before {
+        content: url('../icons/contacts/phone_black.svg');
+        display: block;
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        top: 0;
+        left: -40px;
+    }
+}

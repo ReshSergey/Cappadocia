@@ -1,0 +1,13 @@
+.container {
+    width: 1140px;
+    margin: 0 auto;
+    &_left {
+        margin-left: 0;
+        width: 1140px;
+    }
+    &_right {
+        width: 1140px;
+        margin-right: 0;
+        margin-left: auto;
+    }
+}
