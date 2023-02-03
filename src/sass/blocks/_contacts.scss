@@ -1,0 +1,57 @@
+.contacts {
+    padding-top: 96px;
+    background: url(../img/contacts/contacts_bg.jpg) no-repeat center/cover;
+    width: 100vw;
+    height: 100vh;
+    &__wrapper {
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        grid-template-rows: 530px;
+        column-gap: 100px;
+    }
+    &__balloon {
+        background: url(../../icons/contacts/contacts_balloon.svg) no-repeat center/contain;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        padding-top: 70px;
+        a {
+            padding-bottom: 20px;
+            font-weight: 300;
+            font-size: 18px;
+            line-height: 21px;
+            color: $text-color;
+            &:hover {
+                text-decoration: none;
+            }
+        }
+    }
+    &__phone {
+        position: relative;
+        @include contacts-phone;
+    }
+    &__mail {
+        position: relative;
+        @include contacts-mail;
+    }
+    &__title {
+        margin-bottom: 20px;
+    }
+    &__social{
+        width: 120px;
+        display: grid;
+        grid-template-columns: repeat(3, 30px);
+        grid-template-rows: 30px;
+        column-gap: 15px;
+    }
+    &__header {
+        align-self: center;
+        justify-self: center;
+        h2 {
+            font-weight: 400;
+            font-size: 86px;
+            line-height: 99px;
+        }
+    }
+}

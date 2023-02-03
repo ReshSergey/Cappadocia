@@ -9,3 +9,27 @@
         left: -40px;
     }
 }
+
+@mixin contacts-phone {
+    &:before {
+        content: url('../icons/contacts/phone.svg');
+        display: block;
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        top: -5px;
+        left: -35px;
+    }
+}
+
+@mixin contacts-mail {
+    &:before {
+        content: url('../icons/contacts/mail.svg');
+        display: block;
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        top: -5px;
+        left: -35px;
+    }
+}
